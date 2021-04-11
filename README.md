@@ -29,5 +29,5 @@ See results in _outputs_ folder.
 ```
 
 Identicon generated for "marciovalim": <br>
-<img width="180" src="./example/marciovalim.png" alt="Identicon output exaple"/>
+<img width="180" src="./outputs/marciovalim.png" alt="Identicon output exaple"/>
 
