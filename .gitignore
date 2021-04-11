@@ -25,6 +25,3 @@ identicon-*.tar
 
 # Temporary files for e.g. tests
 /tmp
-
-# Project identicon outputs 
-outputs/*
