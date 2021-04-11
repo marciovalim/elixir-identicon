@@ -14,7 +14,7 @@ defmodule Identicon.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger, :crypto],
+      extra_applications: [:logger, :crypto, :egd],
       applications: applications(Mix.env())
     ]
   end
@@ -27,7 +27,8 @@ defmodule Identicon.MixProject do
     [
       # {:crypto},
       {:ex_doc, "~> 0.24", only: :dev, runtime: false},
-      {:remix, "~> 0.0.1", only: :dev}
+      {:remix, "~> 0.0.1", only: :dev},
+      {:egd, github: "erlang/egd"}
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
     ]
